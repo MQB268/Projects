@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: url(./beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+}
+
+header > h1 {
+  color: rgb(122, 78, 19);
+  font-size: 4rem;
+  padding-top: 200px;
+}
+
+header > p {
+  color: rgb(122, 78, 19);
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+a {
+  color: rgb(122, 78, 19);
+  font-size: 1.2rem;
+  font-weight: lighter;
+  border: 1px solid rgb(122, 78, 19);
+  border-radius: 15px;
+  padding: 20px 25px;
+  background: transparent;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+a:hover {
+  color: whitesmoke;
+  background: rgb(122, 78, 19);
+  transition: all 0.3s ease;
+}
+
+/* Main Section */
+.section1 {
+  background: rgb(122, 78, 19);
+  padding: 20px 20px;
+}
+
+.section1 > p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+
+.section2 {
+  padding: 20px 20px;
+}
+
+.section2 > p {
+  text-align: center;
+  color: rgb(122, 78, 19);
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+
+.section3 {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+span {
+  padding: 30px 20px;
+}
+
+.section3 span:nth-child(1) {
+  background: rgb(122, 78, 19);
+  color: whitesmoke;
+}
+
+.section3 span:nth-child(2) {
+  color: rgb(122, 78, 19);
+}
+
+.section3 span:nth-child(3) {
+  background: rgb(122, 78, 19);
+  color: whitesmoke;
+}
